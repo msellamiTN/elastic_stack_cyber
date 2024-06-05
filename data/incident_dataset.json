@@ -1,0 +1,716 @@
+[
+    {
+        "id": 6,
+        "incident_id": "INC006",
+        "description": "Data Leakage Detected from HR Database",
+        "type": "Data Breach",
+        "date": "2024-06-20T08:45:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "HR Database",
+            "Employee Records"
+        ],
+        "affected_assets": [
+            "HR Database"
+        ],
+        "attacker_ip": "104.27.160.192",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.50",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Unusual data transfer activities detected from HR database server."
+    },
+    {
+        "id": 3,
+        "incident_id": "INC003",
+        "description": "Malware Infection on Employee Workstation",
+        "type": "Malware Incident",
+        "date": "2024-06-17T09:15:00",
+        "status": "Resolved",
+        "severity": "Medium",
+        "services_impacted": [
+            "Employee Workstation",
+            "Corporate Network"
+        ],
+        "affected_assets": [
+            "Employee Workstation"
+        ],
+        "attacker_ip": "172.16.0.5",
+        "attacker_country": "CN",
+        "victim_ip": "10.0.0.20",
+        "attacker_geocode": {
+            "latitude": 39.9042,
+            "longitude": 116.4074
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Malicious file detected and removed by antivirus software."
+    },
+    {
+        "id": 4,
+        "incident_id": "INC004",
+        "description": "Phishing Email Campaign Detected",
+        "type": "Phishing",
+        "date": "2024-06-18T12:00:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Email Service",
+            "Employee Workstations"
+        ],
+        "affected_assets": [
+            "Email Service",
+            "Employee Workstations"
+        ],
+        "attacker_ip": "185.82.216.72",
+        "attacker_country": "RU",
+        "victim_ip": "10.0.0.30",
+        "attacker_geocode": {
+            "latitude": 55.7558,
+            "longitude": 37.6176
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Multiple employees reported receiving suspicious emails with phishing links."
+    },
+    {
+        "id": 5,
+        "incident_id": "INC005",
+        "description": "Unauthorized Access to Finance System",
+        "type": "Unauthorized Access",
+        "date": "2024-06-19T15:30:00",
+        "status": "In Progress",
+        "severity": "Critical",
+        "services_impacted": [
+            "Finance System"
+        ],
+        "affected_assets": [
+            "Finance Server"
+        ],
+        "attacker_ip": "203.0.113.50",
+        "attacker_country": "BR",
+        "victim_ip": "10.0.0.40",
+        "attacker_geocode": {
+            "latitude": -23.5505,
+            "longitude": -46.6333
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Suspicious login attempts detected in finance system logs."
+    },
+    {
+        "id": 7,
+        "incident_id": "INC007",
+        "description": "Denial of Service (DoS) Attack on Web Server",
+        "type": "DoS Attack",
+        "date": "2024-06-21T11:20:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Web Server",
+            "Customer Portal"
+        ],
+        "affected_assets": [
+            "Web Server"
+        ],
+        "attacker_ip": "192.0.2.1",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.60",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Sudden increase in HTTP requests causing web server to become unresponsive."
+    },
+    {
+        "id": 8,
+        "incident_id": "INC008",
+        "description": "Suspicious Activity Detected on Administrator Account",
+        "type": "Account Compromise",
+        "date": "2024-06-22T14:10:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Admin Panel",
+            "Network Infrastructure"
+        ],
+        "affected_assets": [
+            "Administrator Account"
+        ],
+        "attacker_ip": "198.51.100.2",
+        "attacker_country": "FR",
+        "victim_ip": "10.0.0.70",
+        "attacker_geocode": {
+            "latitude": 48.8566,
+            "longitude": 2.3522
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Multiple failed login attempts detected on administrator account."
+    },
+    {
+        "id": 9,
+        "incident_id": "INC009",
+        "description": "SQL Injection Attack Detected",
+        "type": "SQL Injection",
+        "date": "2024-06-23T16:45:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Database Server",
+            "Application"
+        ],
+        "affected_assets": [
+            "Database Server"
+        ],
+        "attacker_ip": "203.0.113.65",
+        "attacker_country": "BR",
+        "victim_ip": "10.0.0.80",
+        "attacker_geocode": {
+            "latitude": -23.5505,
+            "longitude": -46.6333
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Suspicious SQL queries detected in application logs."
+    },
+    {
+        "id": 10,
+        "incident_id": "INC010",
+        "description": "Brute Force Attack on SSH Server",
+        "type": "Brute Force Attack",
+        "date": "2024-06-24T09:55:00",
+        "status": "In Progress",
+        "severity": "High",
+        "services_impacted": [
+            "SSH Service",
+            "Network Infrastructure"
+        ],
+        "affected_assets": [
+            "SSH Server"
+        ],
+        "attacker_ip": "192.0.2.3",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.90",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Multiple failed login attempts detected on SSH server."
+    },
+    {
+        "id": 11,
+        "incident_id": "INC011",
+        "description": "Ransomware Attack on File Server",
+        "type": "Ransomware",
+        "date": "2024-06-25T14:30:00",
+        "status": "Open",
+        "severity": "Critical",
+        "services_impacted": [
+            "File Server",
+            "Data Backup"
+        ],
+        "affected_assets": [
+            "File Server"
+        ],
+        "attacker_ip": "192.0.2.4",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.100",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Files encrypted with ransomware and ransom note received."
+    },
+    {
+        "id": 12,
+        "incident_id": "INC012",
+        "description": "Data Exfiltration Detected",
+        "type": "Data Breach",
+        "date": "2024-06-26T11:20:00",
+        "status": "Open",
+        "severity": "Critical",
+        "services_impacted": [
+            "Database Server",
+            "Sensitive Data"
+        ],
+        "affected_assets": [
+            "Database Server"
+        ],
+        "attacker_ip": "198.51.100.3",
+        "attacker_country": "FR",
+        "victim_ip": "10.0.0.110",
+        "attacker_geocode": {
+            "latitude": 48.8566,
+            "longitude": 2.3522
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Unusual outbound traffic detected from database server."
+    },
+    {
+        "id": 13,
+        "incident_id": "INC013",
+        "description": "Unauthorized Access to Financial System",
+        "type": "Unauthorized Access",
+        "date": "2024-06-27T10:45:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Financial System",
+            "User Data"
+        ],
+        "affected_assets": [
+            "Financial System"
+        ],
+        "attacker_ip": "203.0.113.66",
+        "attacker_country": "BR",
+        "victim_ip": "10.0.0.120",
+        "attacker_geocode": {
+            "latitude": -23.5505,
+            "longitude": -46.6333
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Suspicious login activity detected on financial system."
+    },
+    {
+        "id": 14,
+        "incident_id": "INC014",
+        "description": "Data Corruption in Database",
+        "type": "Data Integrity",
+        "date": "2024-06-28T13:00:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Database Server",
+            "Data Operations"
+        ],
+        "affected_assets": [
+            "Database Server"
+        ],
+        "attacker_ip": "192.0.2.5",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.130",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Unusual database entries detected indicating possible data corruption."
+    },
+    {
+        "id": 15,
+        "incident_id": "INC015",
+        "description": "Insider Threat Activity Detected",
+        "type": "Insider Threat",
+        "date": "2024-06-29T09:30:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Internal Network",
+            "Confidential Data"
+        ],
+        "affected_assets": [
+            "Employee Workstation",
+            "Database Server"
+        ],
+        "attacker_ip": "192.0.2.6",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.140",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "observations": "Unauthorized access and data exfiltration attempts detected from internal user accounts."
+    },
+    {
+        "id": 16,
+        "incident_id": "INC016",
+        "description": "Network Intrusion Detected",
+        "type": "Network Intrusion",
+        "date": "2024-06-30T14:45:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Network Infrastructure",
+            "Security Systems"
+        ],
+        "affected_assets": [
+            "Firewall",
+            "Intrusion Detection System"
+        ],
+        "attacker_ip": "203.0.113.67",
+        "attacker_country": "BR",
+        "victim_ip": "10.0.0.150",
+        "attacker_geocode": {
+            "latitude": -23.5505,
+            "longitude": -46.6333
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 17,
+        "incident_id": "INC017",
+        "description": "Denial of Service (DoS) Attack on Web Server",
+        "type": "DoS Attack",
+        "date": "2024-07-01T11:20:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Web Server",
+            "Internet Access"
+        ],
+        "affected_assets": [
+            "Web Server"
+        ],
+        "attacker_ip": "198.51.100.4",
+        "attacker_country": "FR",
+        "victim_ip": "10.0.0.160",
+        "attacker_geocode": {
+            "latitude": 48.8566,
+            "longitude": 2.3522
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 18,
+        "incident_id": "INC018",
+        "description": "Brute Force Attack on SSH Server",
+        "type": "Brute Force Attack",
+        "date": "2024-07-02T10:30:00",
+        "status": "Open",
+        "severity": "Medium",
+        "services_impacted": [
+            "SSH Server",
+            "Network Access"
+        ],
+        "affected_assets": [
+            "SSH Server"
+        ],
+        "attacker_ip": "203.0.113.68",
+        "attacker_country": "BR",
+        "victim_ip": "10.0.0.170",
+        "attacker_geocode": {
+            "latitude": -23.5505,
+            "longitude": -46.6333
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 19,
+        "incident_id": "INC019",
+        "description": "SQL Injection Attack Detected",
+        "type": "SQL Injection",
+        "date": "2024-07-03T13:40:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Database Server",
+            "Application Access"
+        ],
+        "affected_assets": [
+            "Database Server"
+        ],
+        "attacker_ip": "192.0.2.7",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.180",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 20,
+        "incident_id": "INC020",
+        "description": "Unauthorized Access to Customer Data",
+        "type": "Unauthorized Access",
+        "date": "2024-07-04T09:50:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Customer Database",
+            "Data Privacy"
+        ],
+        "affected_assets": [
+            "Customer Database"
+        ],
+        "attacker_ip": "185.82.216.73",
+        "attacker_country": "RU",
+        "victim_ip": "10.0.0.190",
+        "attacker_geocode": {
+            "latitude": 55.7558,
+            "longitude": 37.6176
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 21,
+        "incident_id": "INC021",
+        "description": "DNS Spoofing Attempt Detected",
+        "type": "DNS Spoofing",
+        "date": "2024-07-05T14:15:00",
+        "status": "Open",
+        "severity": "Medium",
+        "services_impacted": [
+            "DNS Server",
+            "Network Traffic"
+        ],
+        "affected_assets": [
+            "DNS Server"
+        ],
+        "attacker_ip": "203.0.113.69",
+        "attacker_country": "BR",
+        "victim_ip": "10.0.0.200",
+        "attacker_geocode": {
+            "latitude": -23.5505,
+            "longitude": -46.6333
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 22,
+        "incident_id": "INC022",
+        "description": "Data Leakage from Employee Laptop",
+        "type": "Data Leakage",
+        "date": "2024-07-06T10:05:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Corporate Data",
+            "Data Privacy"
+        ],
+        "affected_assets": [
+            "Employee Laptop"
+        ],
+        "attacker_ip": "192.0.2.8",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.210",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 23,
+        "incident_id": "INC023",
+        "description": "Phishing Attempt Detected via Email",
+        "type": "Phishing",
+        "date": "2024-07-07T12:30:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Email Service",
+            "User Accounts"
+        ],
+        "affected_assets": [
+            "Email Server"
+        ],
+        "attacker_ip": "185.82.216.74",
+        "attacker country": "RU",
+        "victim_ip": "10.0.0.220",
+        "attacker_geocode": {
+            "latitude": 55.7558,
+            "longitude": 37.6176
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 24,
+        "incident_id": "INC024",
+        "description": "Data Breach in Customer Database",
+        "type": "Data Breach",
+        "date": "2024-07-08T09:00:00",
+        "status": "Open",
+        "severity": "Critical",
+        "services_impacted": [
+            "Customer Data",
+            "Data Privacy"
+        ],
+        "affected_assets": [
+            "Customer Database"
+        ],
+        "attacker_ip": "198.51.100.5",
+        "attacker_country": "FR",
+        "victim_ip": "10.0.0.230",
+        "attacker_geocode": {
+            "latitude": 48.8566,
+            "longitude": 2.3522
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 25,
+        "incident_id": "INC025",
+        "description": "Unauthorized Access to Admin Panel",
+        "type": "Unauthorized Access",
+        "date": "2024-07-09T14:00:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Admin Panel",
+            "System Controls"
+        ],
+        "affected_assets": [
+            "Admin Panel"
+        ],
+        "attacker_ip": "203.0.113.70",
+        "attacker_country": "BR",
+        "victim_ip": "10.0.0.240",
+        "attacker_geocode": {
+            "latitude": -23.5505,
+            "longitude": -46.6333
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 26,
+        "incident_id": "INC026",
+        "description": "Web Application Vulnerability Exploited",
+        "type": "Application Vulnerability",
+        "date": "2024-07-10T09:30:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Web Application",
+            "User Data"
+        ],
+        "affected_assets": [
+            "Web Server"
+        ],
+        "attacker_ip": "192.0.2.9",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.250",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 27,
+        "incident_id": "INC027",
+        "description": "Employee Credentials Stolen",
+        "type": "Credential Theft",
+        "date": "2024-07-11T13:45:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Employee Accounts",
+            "Data Privacy"
+        ],
+        "affected_assets": [
+            "Employee Workstation",
+            "Corporate Network"
+        ],
+        "attacker_ip": "192.0.2.10",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.260",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "victim_geocode": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        }
+    },
+    {
+        "id": 28,
+        "incident_id": "INC028",
+        "description": "Data Exfiltration via File Transfer",
+        "type": "Data Exfiltration",
+        "date": "2024-07-12T12:10:00",
+        "status": "Open",
+        "severity": "High",
+        "services_impacted": [
+            "Internal Network",
+            "Sensitive Data"
+        ],
+        "affected_assets": [
+            "Employee Workstation"
+        ],
+        "attacker_ip": "192.0.2.11",
+        "attacker_country": "US",
+        "victim_ip": "10.0.0.270",
+        "attacker_geocode": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        }
+    }
+    ]
